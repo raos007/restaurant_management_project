@@ -1,53 +1,20 @@
-/* Basic CSS Reset (optional, but good practice) */
-body, h1, h2, p, ul, li, img {  
-      margin: 0;  
-        padding: 0;   
-         border: 0;
-         }
-         body 
-         {   
-             font-family: Arial, sans-serif;   
-              line-height: 1.6;   
-               background-color: #f4f4f4;  
-                 color: #333; 
-                    padding: 20px;
-                    }
-                    header, footer {   
-                         background-color: #333;    
-                         color: #fff;  
-                           padding: 10px; 
-                              text-align: center;
-                              }
-                              nav ul {  
-                                  display: flex; /* Display list items horizontally */  
-                                    justify-content: center; /* Center the items */  
-                                      list-style: none; /* Remove bullet point */
-                                      }
-                                      nav li {   
-                                         margin: 0 15px; /* Provide some space between list items */
-                                         }
-                                         nav a {  
-                                              color: #fff;    
-                                              text-decoration: none; /* Remove underline from links */
-                                              }
-                                              main {  
-                                                  max-width: 800px;   
-                                                   margin: 20px auto;   
-                                                    background: #fff; 
-                                                       padding: 20px;  
-                                                         border-radius: 5px; 
-                                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                                            }
-                                                            h1 {  
-                                                                  font-size: 2.5em; 
-                                                                     margin-bottom: 20px;  
-                                                                       text-align: center;
-                                                                       }
-                                                                       img {    max-width: 100%;   
-                                                                        height: auto;   
-                                                                         display: block; /* Remove potential spacing below image */  
-                                                                           margin: 0 auto 20px; /* Center the image */
-                                                                           }
-                                                                           p {  
-                                                                              margin-bottom: 15px;
-                                                                              }
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f9f9f9;  
+    color: #333;  
+    margin: 40px;
+    }
+    h1 {  
+        color: #007BFF;
+        }
+        ul {  
+            list-style-type: none;  
+            padding: 0;
+            }
+            li {  
+                padding: 10px;  
+                margin-bottom: 8px;  
+                background-color: #e0e0e0;  
+                border-radius: 5px;  
+                font-size: 18px;
+                }
