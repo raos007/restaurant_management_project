@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <title>{% block title %}My Restaurant{% endblock %}</title>
+        </head>
+        <body>    
+            <!-- Content from other pages -->    
+            {% block content %}{% endblock %}    
+            <!-- Footer -->    
+            <footer style="text-align:center; margin-top:20px; padding:10px; border-top:1px solid #ccc;">        
+                <p>&copy; {{ current_year }} Tasty Bites. All rights reserved.</p>    
+                </footer>
+                </body>
+                </html>
