@@ -5,3 +5,4 @@ context = {
     "placeholder_message": "This is the Reservations page. Reservation features will be added soon!"    
     }    
     return render(request, "reservations/reservations.html", context)
+    get date and time
