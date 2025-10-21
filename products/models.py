@@ -7,4 +7,5 @@ class Item(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
+        icon
         return str(self.item_name)
