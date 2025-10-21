@@ -4,4 +4,4 @@ def homepage_view(request):
         "welcome_message": "Welcome to Tasty Bites! We are glad to have you here.",        
         "opening_hours": "Mon–Fri: 11am–9pm, Sat–Sun: 10am–10pm"    
         }    
-        return render(request, "home/homepage.html", context)
+        return render(request, "home/homepage.html", context);
