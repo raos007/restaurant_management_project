@@ -8,4 +8,5 @@ class Item(models.Model):
 
     def __str__(self):
         icon,user
+        filter(category__category_name='some_category'))
         return str(self.item_name)
