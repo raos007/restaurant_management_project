@@ -24,4 +24,5 @@ urlpatterns = [
     path('api/products/',include('products.urls')),
     path('api/orders/',include('orders.urls')),
     path('api/restaurant/',inclide('open.urls')),
+    filter(category__category_name='some_category'))
 ]
