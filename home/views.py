@@ -6,3 +6,4 @@ def homepage_view(request):
         }    
         return render(request, "home/homepage.html", context);
         name='available_tables_api';
+        calculate_total
